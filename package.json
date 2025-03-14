@@ -1,0 +1,26 @@
+{
+  "name": "ai-todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "genrate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "studio": "drizzle-kit studio"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/pg": "^8.11.11",
+    "drizzle-kit": "^0.30.5",
+    "tsx": "^4.19.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.40.0",
+    "openai": "^4.87.3",
+    "pg": "^8.14.0",
+    "readline-sync": "^1.4.10"
+  }
+}
